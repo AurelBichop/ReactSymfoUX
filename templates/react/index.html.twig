@@ -8,9 +8,10 @@
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
 			<div class="text-center">
 				<p class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">Ceci est une démo de React dans une application Symfony</p>
+				<div class="mx-auto max-w-xl mt-5" {{ react_component('Pays') }}></div>	
 				<p class="mx-auto mt-5 max-w-xl text-xl text-gray-500">Ceci est une démo de React dans une application Symfony</p>
-                <div {{ react_component('Hello', { 'fullName': 'Aurel Bichop' }) }}></div>
-                <div {{ react_component('Modal',{'button': 'Sesame Ouvre toi'}) }}></div>
+                <div class="mx-auto max-w-xl mt-5" {{ react_component('Hello', { 'fullName': 'Aurel Bichop' }) }}></div>
+                <div class="mx-auto max-w-xl mt-5" {{ react_component('Modal',{'button': 'Sesame Ouvre toi'}) }}></div>
 				<div class="mt-3" {{ react_component('Button') }}></div>	
 				<div class="mt-3" {{ react_component('Card') }}></div>
 				<div class="mt-3" {{ react_component('SpeedDial') }}></div>
