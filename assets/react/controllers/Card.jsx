@@ -12,7 +12,7 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image="https://mui.com/static/images/cards/contemplative-reptile.jpg"
           alt="green iguana"
         />
         <CardContent>
@@ -27,7 +27,7 @@ export default function MultiActionAreaCard() {
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary">
-          Share
+          Partage
         </Button>
       </CardActions>
     </Card>
